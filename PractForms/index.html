@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In</title>
+
+  <link rel="icon" type="image/png" href="favicon.svg">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="modal-overlay">
+    <div class="modal-card">
+      <!-- Close Button -->
+      <button class="close-button" type="button" aria-label="Close">&times;</button>
+      
+      <div class="modal-header">
+        <img src="logo.svg" alt="Logo" class="logo">
+        <p class="modal-title">Sign In</p>
+      </div>
+
+      <form class="login-form">
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" placeholder="email@example.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="password" required>
+        </div>
+
+        <button type="submit" class="submit-button">Sign in</button>
+      </form>
+
+      <div class="modal-footer">
+        <p><a href="#" class="blue-link">Forgot password?</a></p>
+        
+        <div class="signup-prompt">
+          <p class="prompt-text">Don't have an account?</p>
+          <p><a href="#" class="blue-link">Sign Up here</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
